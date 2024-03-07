@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# A script displaying "Best School" using while and if
+
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 8 ]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best school"
+	fi
+	((i++))
+done
